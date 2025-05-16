@@ -457,6 +457,18 @@ button:hover {
         margin-top: 8px;
     }
 }
+.mobile-nav ul {
+    gap: 16px;
+    flex-wrap: wrap;
+}
+.skills-list li {
+    margin-bottom: 4px;
+    font-size: 0.9rem;
+}
+button {
+    width: 100%;
+}
+
 /* Hide by default, show only on mobile */
 .mobile-header {
     display: none;
@@ -510,6 +522,7 @@ button:hover {
 
     .main-wrapper {
         padding-top: 60px; /* leave space for the header bar */
+
     }
 }
 
